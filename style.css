@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+* {
+    font-family: "Open Sans", sans-serif;
+    background-color: #F5F4F0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.amantes {
+    margin-top: 50px;
+}
+
+body {
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start; 
+    min-height: 100vh; 
+  }
+
+.legenda {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#page {
+    width: 1120px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 88px;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    padding-bottom: 137px;
+  }
+  
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    color: #E1624F;
+    font-size: 16px;
+}
+
+h1.Descubra {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 28px;
+    margin: 10px 10px 0px 0px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.imagem {
+    background-color: white;
+    padding: 24px;
+    margin-bottom: 24px;
+    border-radius: 8px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+    padding-top: 50px;
+}
+
+ol {
+    padding-left: 20px;
+    margin-bottom: 8px;
+}
+
+ul {
+    padding-left: 20px;
+    margin-bottom: 16px;
+}
+
+li {
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+li.historia {
+    color: #0C51A7;     
+    font-weight: bold;
+}
+  
+  li.historia::marker {
+    color: black;        
+  }
+
+  li.casais {
+    color: #591B98;     
+    font-weight: bold;
+}
+li.casais::marker {
+    color: black;        
+  }
+li.familias {
+    color: #E5245E;     
+    font-weight: bold;
+}
+
+li.familias::marker {
+    color: black;        
+  }
+
+li.orcamentos {
+    color: #E95E10;     
+    font-weight: bold;
+}
+li.orcamentos::marker {
+    color: black;        
+  }
+
+  .final {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 106px;
+}
+
+  footer {
+    text-align: center;
+    font-size: 14px;
+    margin: 0px 0px 70px;
+    flex-shrink: 0;
+  }
+
+footer img {
+    display: inline;
+    vertical-align: baseline;
+    width: 20px;  
+    height: 70px; 
+    margin: 0 2px -5px;
+    margin-top: -1px;
+  }
